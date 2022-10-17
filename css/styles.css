@@ -241,8 +241,14 @@ html, body {
         width: 300px;
         height: 250px;
     }
-    #galeria h1 {
-        font-size: 3vw;
+    #galeria2 h1 {
+        font-size: 9vw;
+    }
+    .inicio h1{
+        text-align: right;
+        font-size: 9vw;
+        padding-left: 35%;
+        padding-right: 5%;
     }
 
 }
