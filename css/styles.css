@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: inherit;
+    scroll-behavior: initial;
+    scroll-behavior: unset;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -23,9 +26,21 @@ body {
 .four-column {
     width: 25%;
     float: left;
+    text-align: center;
+    color: white;
 }
 .four-column img {
-    width: 10%;
+    width: 70%;
+    border-radius: 5%;
+}
+.mapa {
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+.mapa iframe {
+    width: 600px;
+    height: 450px;
 }
 /* Menú */
 /* ul {
@@ -134,9 +149,9 @@ h4 {
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #0072a7;
+    background-color: #0a7bb0;
     font-family: 'Roboto', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #trigger, #burger, #burger:before, #burger:after {
@@ -214,6 +229,14 @@ html, body {
     }
     .four-column img {
         text-align: center;
+    }
+    .mapa {
+        margin-top: 25%;
+        width: 100%;
+    }
+    .mapa iframe {
+        width: 300px;
+        height: 250px;
     }
 
 }
