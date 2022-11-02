@@ -235,7 +235,7 @@ html, body {
         margin: 5%;
     }
     .four-column img {
-        width: 80%;
+        width: 70%;
     }
     .four-column p {
         font-size: 3vw;
@@ -259,7 +259,7 @@ html, body {
     } */
 
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 600px) {
     ul.topnav li.right, ul.topnav li {
         float: none;
     }
